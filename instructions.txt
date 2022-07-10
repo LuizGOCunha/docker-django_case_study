@@ -1,0 +1,2 @@
+# Here we are running the image and creating a container, then connecting the port 8000 of the container with our port 8000. That way we can reach it using localhost:8000
+sudo docker run --publish 8000:8000 django-test
